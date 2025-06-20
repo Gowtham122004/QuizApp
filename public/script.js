@@ -46,11 +46,11 @@ window.addEventListener('DOMContentLoaded', () => {
   tryAgainBtn.addEventListener('click', resetQuiz);
   submitBtn.addEventListener('click', submitAnswer);
 
-  // Start Quiz
+  // Start Quiz   
   async function startQuiz() {
    
     try {
-      const res = await fetch(`http://localhost:5000/api/questions?category=${selectedCategory}&limit=${questionCount}`);
+      const res = await fetch(`https://quizapp1-kwl6.onrender.com/api/questions?category=${selectedCategory}&limit=${questionCount}`);
       const data = await res.json();
       questions = data.questions;
     } catch (err) {
