@@ -1,0 +1,136 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #8bd3dd, #b3bce3);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-container {
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.form-card {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  max-width: 350px;
+  width: 90%;
+  text-align: left;
+}
+
+.form-card h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #0056cc;
+}
+
+.login-link,
+.forgot-password {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+  .main-heading {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .form-card {
+    padding: 20px;
+    max-width: 90%;
+    box-shadow: none;
+    border-radius: 8px;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  form button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .login-link,
+  .forgot-password {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-heading {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .form-card {
+    padding: 20px;
+    max-width: 90%;
+    box-shadow: none;
+    border-radius: 8px;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  form button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .login-link,
+  .forgot-password {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}

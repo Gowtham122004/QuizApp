@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register</title>
+  <link rel="stylesheet" href="register.css" />
+</head>
+<body>
+  <div class="page-container">
+    <h2 class="main-heading">Welcome to Quiz App</h2>
+    <div class="form-card">
+      <h3>Create Account</h3>
+      <form  id="register-form" action="http://localhost:5000/register" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="password" name="password" placeholder="Password" id="pass1" required />
+        
+        <input type="password" name="password-repeat" placeholder="Repeat Password" id="pass2" required />
+            <!-- Error message container -->
+  <div id="error" ></div>
+        <button type="submit">Register</button>
+        <p class="login-link">Already have an account? <a href="login.html">Login</a></p>
+      </form>
+    </div>
+  </div>
+  <script src="validation.js"></script>
+</body>
+</html>
