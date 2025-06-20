@@ -37,23 +37,7 @@ It allows users to register, log in, and take multiple-choice quizzes with real-
 
 ```
 
-quiz-app-fullstack/
-├── public/
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   └── js/
-│       └── validation.js
-├── models/
-│   └── User.js
-├── routes/
-│   ├── auth.js
-│   └── api.js
-├── .gitignore
-├── server.js
-├── package.json
-└── README.md
-
+<pre> ``` quiz-app-fullstack/ ├── public/ │ ├── index.html │ ├── login.html │ ├── register.html │ └── js/ │ └── validation.js ├── models/ │ └── User.js ├── routes/ │ ├── auth.js │ └── api.js ├── .gitignore ├── server.js ├── package.json └── README.md ``` </pre>
 ````
 
 ---
