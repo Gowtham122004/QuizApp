@@ -33,14 +33,26 @@ It allows users to register, log in, and take multiple-choice quizzes with real-
 
 ---
 
-## 📁 Project Structure
 
-```
+### 📁 Project Structure (Explained One by One)
 
-<pre> ``` quiz-app-fullstack/ ├── public/ │ ├── index.html │ ├── login.html │ ├── register.html │ └── js/ │ └── validation.js ├── models/ │ └── User.js ├── routes/ │ ├── auth.js │ └── api.js ├── .gitignore ├── server.js ├── package.json └── README.md ``` </pre>
-````
+- `quiz-app-fullstack/`
+  - `public/` – contains all frontend files
+    - `index.html` – main landing page after login
+    - `login.html` – user login form
+    - `register.html` – user registration form
+    - `js/`
+      - `validation.js` – handles form validation and fetch requests
+  - `models/`
+    - `User.js` – Mongoose schema for user data
+  - `routes/`
+    - `auth.js` – register and login API routes
+    - `api.js` – quiz-related API logic
+  - `.gitignore` – ignores files like `node_modules`
+  - `server.js` – main backend Express server
+  - `package.json` – project dependencies and scripts
+  - `README.md` – this documentation file
 
----
 
 ## 🔧 Setup Instructions
 
