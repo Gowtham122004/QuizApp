@@ -1,6 +1,4 @@
-Here’s your complete and professionally formatted `README.md` in **copy-paste Markdown format** — ready to paste directly into your project’s `README.md` file:
 
----
 
 ```markdown
 # 🎯 QuizApp - Full Stack Quiz Application
