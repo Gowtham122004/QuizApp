@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (res.ok) {
         if (data.message) {
           // ✅ Successful registration — redirect to index.html
-          window.location.href = "index.html";
+          window.location.href = "home.html";
         } else {
           // Shouldn't happen, but fallback
           errorDiv.textContent = "Unexpected response.";
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!res.ok) {
           errorDiv.textContent = data.error || "Login failed.";
         } else {
-          window.location.href = "index.html";
+          window.location.href = "home.html";
         }
       } catch (err) {
         errorDiv.textContent = "An error occurred. Try again.";
